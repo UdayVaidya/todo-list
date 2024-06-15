@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+html{
+    background : url(4K-Aesthetic-Wallpaper-For-Desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.todo-container {
+    background-color: transparent;
+    opacity: 1;
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    width: 600px;
+    height:auto;
+    position: relative;
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px); 
+
+}
+
+.todo-container input[type="text"] {
+    width: 90%;
+    width: 585px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.todo-container button {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.todo-container button:hover {
+    background-color: #0056b3;
+}
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo-item {
+    background-color: white;
+    opacity: 1;
+    color: grey;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    cursor: move;
+    transition: transform 0.2s ease;
+    backdrop-filter: blur(15px);
+    margin: 10px 0;
+    width: 90%;
+}
+.todo-item input[type="checkbox"] {
+    cursor: pointer;
+    margin-right: 2.5px;
+}
+.todo-item.dragging {
+    opacity: 0.5;
+}
+
+.todo-Logo{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 1.5rem;
+
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#editButton{
+    margin-left: 50px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    height: 30px;
+    width: 150px;
+    padding: 5px 10px; 
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#editButton:hover{
+    background-color: #0056b3;
+}
+
+#deleteButton{
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    height: 30px;
+    width: 150px;
+    padding: 5px 10px; 
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+#deleteButton:hover{
+    background-color: #c82333;
+}
+
+.img-container{
+    border-radius: 15px;
+    transition: transform 1s ease-in-out;
+}
+
+.img-container:hover{
+    transform: rotate(360deg);
+}
+
+#deleteAllbutton{
+    background-color: #dc3545;
+}
+
+#deleteAllbutton:hover {
+    background-color: #c82333;
+}
+
+a {
+    text-align: center;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: "Cookie", cursive;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    margin: 10px;
+    margin-left: 140px;
+    border-radius: 14px;
+    color: #570bb7;
+    width: 350px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+span{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-left: 12px;
+}
+
