@@ -5,14 +5,22 @@ I'm thrilled to share that I've just completed my very first project using JavaS
 🎯 Project Overview:
 For this initial project, I created a simple yet functional to-do list application. The main features include:
 
-Adding tasks with a single click.
-Marking tasks as complete.
-Removing tasks when they are done.
+-Adding tasks with a single click.
+-Marking tasks as complete.
+-Removing tasks when they are done.
+
 🔧 Key Learnings:
 
 DOM Manipulation: I learned how to dynamically update the content and structure of the webpage.
 Event Handling: Implementing click events to make the application interactive.
 Basic Debugging: Debugging code and resolving issues taught me problem-solving skills and attention to detail.
 Code Organization: Structuring code efficiently for readability and maintenance.
+
+HERE'S DEMO VIDEO OF HOW IT WORKS:
+
+
+https://github.com/UdayVaidya/todo-list/assets/105291488/e78cd9b7-6636-4d5e-811d-53f894276c36
+
+
 
 #JavaScript #WebDevelopment #CodingJourney #LearningByDoing #FirstProject
